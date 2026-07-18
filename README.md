@@ -42,13 +42,13 @@
 ├── data/
 │   ├── posts.parquet          ← финальные данные (посты с выделенными темами)
 │   └── comments.parquet       ← финальные данные (комменты с сентиментом)
-│
+│   └── pikabu_posts.csv       ← сырые данные по постам
+│   └── comments.csv           ← сырые данные по комментариям
 ├── notebooks/                 
 │   ├── 01_parsing.ipynb       ← сбор данных (Selenium/парсер)
 │   ├── 02_preprocessing.ipynb ← очистка, лемматизация, токенизация
 │   ├── 03_topic_modeling.ipynb← LDA + вовлечённость
-│   ├── 04_sentiment.ipynb     ← трансформер + RuSentiLex
-│   └── 05_statistics.ipynb    
+│   ├── 04_sentiment.ipynb     ← трансформер + RuSentiLex  
 │
 └── docs/
     └── Описание_Проекта_Хугаев.pdf 
