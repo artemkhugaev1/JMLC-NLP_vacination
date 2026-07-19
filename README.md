@@ -42,14 +42,12 @@
 ├── data/
 │   ├── posts.parquet              ← финальные данные (посты с выделенными темами)
 │   └── comments.parquet           ← финальные данные (комменты с сентиментом)
-│   └── pikabu_posts.csv           ← сырые данные по постам
-│   └── comments.csv               ← сырые данные по комментариям
 ├── notebooks/
-│   ├── parse_posts.ipynb          ← сбор постов                  
-│   ├── parse_comments.ipynb       ← сбор комментариев (Selenium)
-│   ├── preprocessing.ipynb        ← очистка, лемматизация, токенизация
-│   ├── topic_modeling.ipynb       ← LDA + стат.тесты 
-│   ├── 04_sentiment.ipynb         ← трансформер + RuSentiLex  
+│   ├── parse_posts.ipynb              ← сбор постов                  
+│   ├── parse_comments.ipynb           ← сбор комментариев (Selenium)
+│   ├── preprocessing.ipynb            ← очистка, лемматизация, токенизация
+│   ├── LDA+Statistical_testing.ipynb  ← LDA + стат.тесты 
+│   ├── sentiment_analysis.ipynb       ← трансформер + RuSentiLex  
 │
 └── docs/
     └── Описание_Проекта_Хугаев.pdf 
