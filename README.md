@@ -37,11 +37,11 @@
 ├── requirements.txt          
 ├── .gitignore                 
 │
-├── app.py                     ← дашборд (Streamlit)
+├── app.py                             ← дашборд (Streamlit)
 │
 ├── data/
-│   ├── posts.parquet              ← финальные данные (посты с выделенными темами)
-│   └── comments.parquet           ← финальные данные (комменты с сентиментом)
+│   ├── posts.parquet                  ← финальные данные (посты с выделенными темами)
+│   └── comments.parquet               ← финальные данные (комменты с сентиментом)
 ├── notebooks/
 │   ├── parse_posts.ipynb              ← сбор постов                  
 │   ├── parse_comments.ipynb           ← сбор комментариев (Selenium)
